@@ -8,7 +8,7 @@ import org.springframework.security.provisioning.JdbcUserDetailsManager;
 
 
 import javax.sql.DataSource;
-@Configuration
+//@Configuration
 public class ProjectSecurityConfigMYSQL {
     @Bean
     public UserDetailsService userDetailsService(DataSource datasource){
